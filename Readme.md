@@ -1,2 +1,2 @@
 # web-study-project
-Test project for learing web-dev
+Test project for learning web-dev
