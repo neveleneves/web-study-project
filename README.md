@@ -6,4 +6,4 @@ ____
 ## Stacks
 * Standard Stack (JS, HTML, CSS)
 * MERN Stack (MongoDB, Express.js, React.js, Node.js)
-
+* JS Training
