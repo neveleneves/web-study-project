@@ -1,0 +1,11 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1a1450e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro__title {
+  color: #ffffff5d;
+}
