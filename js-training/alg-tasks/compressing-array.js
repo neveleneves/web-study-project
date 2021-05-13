@@ -1,4 +1,5 @@
 // Compress unsorted array of integers
+
 const compressArray = (inputArray) => {
   if (!inputArray) return "Array is empty";
 
