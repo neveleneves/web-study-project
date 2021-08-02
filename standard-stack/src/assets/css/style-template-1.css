@@ -1,0 +1,111 @@
+.mntn-bg {
+  background-color: #0b1d26;
+  background-image: url("../img/mntn-bg.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.mntn-pre-linear {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background: linear-gradient(
+    330.24deg,
+    rgba(11, 29, 38, 0) 31.06%,
+    #0b1d26 108.93%
+  );
+}
+.mntn-header__wrapper {
+  margin: 0px 80px 198px;
+  padding: 65px 0px 0px;
+}
+.mntn-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mntn-logo__link {
+  font-family: "Chronicle Display Black";
+  color: white;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+.mntn-menu__list {
+  display: flex;
+}
+.mntn-menu__item {
+  margin: 0px 20px;
+}
+.mntn-menu__link {
+  font-family: "Gilroy-Bold";
+  color: white;
+  font-size: 18px;
+}
+.mntn-account {
+  display: flex;
+  align-items: center;
+}
+.mntn-account__link {
+  font-family: "Gilroy-Bold";
+  color: white;
+  font-size: 18px;
+  margin-left: 7px;
+}
+.mntn-main__wrapper {
+  margin: 0px 80px;
+}
+.mntn-intro {
+  display: flex;
+}
+.mntn-intro-content {
+  max-width: 950px;
+}
+.mntn-intro-subtitle {
+  display: flex;
+  align-items: center;
+}
+.mntn-intro-subtitle__dah {
+  display: block;
+  width: 72px;
+  height: 2px;
+  background: #fbd784;
+  margin: 0px 32px 32px 0px;
+}
+.mntn-intro-subtitle__text {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #fbd784;
+  margin: 0px 32px 32px 0px;
+}
+.mntn-intro-title__text {
+  font-family: "Chronicle Display Roman";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 88px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.mntn-intro-autoscroll {
+  display: flex;
+  align-items: center;
+}
+.mntn-intro-autoscroll__link {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-right: 16px;
+}

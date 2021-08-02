@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Bold"), url("../fonts/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Heavy";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Heavy"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Light"), url("../fonts/Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Medium"), url("../fonts/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Regular"),
+    url("../fonts/Gilroy-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Chronicle Display Light Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Chronicle Display Light Italic"),
+    url("../fonts/Chronicle Display Light Italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Chronicle Display Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Chronicle Display Roman"),
+    url("../fonts/Chronicle Display Roman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Chronicle Display Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Chronicle Display Semibold"),
+    url("../fonts/Chronicle Display Semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Chronicle Display Black";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Chronicle Display Black"),
+    url("../fonts/Chronicle Display Black.woff") format("woff");
+}

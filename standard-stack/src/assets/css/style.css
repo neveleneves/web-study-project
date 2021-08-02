@@ -1,0 +1,91 @@
+html {
+  /* box-sizing: border-box; */
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+}
+
+.intro-body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+  background-color: #bebebe;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header {
+  width: 100%;
+  text-align: center;
+}
+.header__wrapper {
+  margin: 0px 250px;
+  padding: 30px 0px;
+}
+.header__title {
+  color: #575757;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+.main {
+  width: 100%;
+  height: calc(1080px - 300px);
+}
+.main__wrapper {
+  margin: 0px 250px;
+}
+.layouts {
+  width: 100%;
+  height: 800px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  filter: drop-shadow(0px 109.387px 87.5097px rgba(141, 145, 160, 0.0196802))
+    drop-shadow(0px 45.6993px 36.5595px rgba(141, 145, 160, 0.0282725))
+    drop-shadow(0px 24.4331px 19.5464px rgba(141, 145, 160, 0.035))
+    drop-shadow(0px 13.697px 10.9576px rgba(141, 145, 160, 0.0417275))
+    drop-shadow(0px 7.27436px 5.81949px rgba(141, 145, 160, 0.0503198))
+    drop-shadow(0px 3.02702px 2.42162px rgba(0, 0, 0, 0.07));
+}
+.layouts__wrapper {
+  margin: 0px 20px;
+  padding: 20px 0px;
+}
+.layouts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.layout-card {
+  grid-column: span 1;
+  height: 230px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  filter: drop-shadow(0px 109.387px 87.5097px rgba(141, 145, 160, 0.0196802))
+    drop-shadow(0px 45.6993px 36.5595px rgba(141, 145, 160, 0.0282725))
+    drop-shadow(0px 24.4331px 19.5464px rgba(141, 145, 160, 0.035))
+    drop-shadow(0px 13.697px 10.9576px rgba(141, 145, 160, 0.0417275))
+    drop-shadow(0px 7.27436px 5.81949px rgba(141, 145, 160, 0.0503198))
+    drop-shadow(0px 3.02702px 2.42162px rgba(0, 0, 0, 0.07));
+}
+.layout-card__background {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.layout-card__link:hover {
+  transition: ease 0.3s all;
+  filter: contrast(1.5);
+}
