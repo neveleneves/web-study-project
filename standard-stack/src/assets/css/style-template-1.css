@@ -21,7 +21,7 @@
   position: absolute;
   width: 100%;
   height: 3400px;
-  top: 1200px;
+  top: 1100px;
   background: linear-gradient(
     180deg,
     rgba(11, 29, 38, 0) 0.76%,
@@ -133,7 +133,7 @@
   letter-spacing: 6px;
   text-transform: uppercase;
   color: #fbd784;
-  margin: 0px 32px 32px 0px;
+  margin: 0px 0px 32px 0px;
 }
 .mntn-intro-title__text {
   font-family: "Chronicle Display Roman";
@@ -214,8 +214,9 @@
 .mntn-left-section {
   grid-column: span 1;
 }
-.mntn-left-section__container {
+.mntn-left-section_wrapper {
   position: relative;
+  padding-right: 25px;
 }
 .mntn-section-number {
   font-family: "Gilroy-Bold";
@@ -231,13 +232,16 @@
   top: 38px;
 }
 .mntn-left-section__body {
-  margin-left: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .mntn-section-text {
-  max-width: 632px;
+  max-width: 782px;
+  height: 720px;
+}
+.mntn-section-text__wrapper {
+  margin: 141px 0px 0px 150px;
 }
 .mntn-section-subtitle {
   font-family: "Gilroy-Bold";
@@ -300,15 +304,27 @@
 .mntn-right-section__container {
   position: relative;
 }
+.mntn-right-section_wrapper {
+  position: relative;
+  padding-left: 25px;
+}
 .mntn-right-section__number {
   position: absolute;
   top: 38px;
-  left: 680px;
+  /* left: 15px; */
 }
 .mntn-right-section__body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.mntn-section-photo {
+  min-width: 566px;
+  min-height: 720px;
+}
+.mntn-section-photo__photo {
+  width: 100%;
+  height: 100%;
 }
 .mntn-footer__wrapper {
   margin: 0px 229px;
@@ -378,4 +394,132 @@
 }
 .mntn-footer-nav__link {
   color: #ffffff;
+}
+
+@media screen and (max-width: 1800px) {
+  .mntn-after-gradient {
+    top: 950px;
+  }
+  .mntn-section-text__wrapper {
+    margin: 141px 0 0 100px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .mntn-intro-title__text {
+    font-size: 83px;
+    line-height: 90px;
+  }
+  .mntn-after-gradient {
+    top: 850px;
+  }
+  .mntn-section-text__wrapper {
+    margin: 141px 0 0 70px;
+  }
+  .mntn-section-number {
+    font-size: 200px;
+    line-height: 200px;
+  }
+  .mntn-section-title {
+    font-size: 54px;
+    line-height: 67px;
+  }
+  .mntn-article-content__wrapper {
+    row-gap: 100px;
+  }
+  .mntn-intro__wrapper {
+    margin-bottom: 750px;
+  }
+  .mntn-section-photo {
+    min-width: 500px;
+    min-height: 636px;
+  }
+  .mntn-main__wrapper {
+    margin: 0 80px 150px;
+  }
+  .mntn-footer-nav {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .mntn-after-gradient {
+    top: 750px;
+  }
+  .mntn-intro__wrapper {
+    margin-bottom: 650px;
+  }
+  .mntn-section-photo {
+    min-width: 450px;
+    min-height: 572px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .mntn-header__wrapper {
+    padding: 40px 0 0;
+  }
+  .mntn-logo__link {
+    font-size: 28px;
+  }
+  .mntn-intro-content {
+    max-width: 780px;
+  }
+  .mntn-menu__link {
+    font-size: 16px;
+  }
+  .mntn-account__link {
+    font-size: 16px;
+  }
+  .mntn-header__wrapper {
+    margin: 0 80px 220px;
+  }
+  .mntn-section-title__wrapper {
+    margin-bottom: 15px;
+  }
+  .mntn-intro__wrapper {
+    margin-bottom: 550px;
+  }
+  .mntn-intro-subtitle__dah {
+    width: 60px;
+    margin: 0 20px 20px 0;
+  }
+  .mntn-intro-subtitle__text {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 0 20px;
+  }
+  .mntn-intro-title__text {
+    font-size: 75px;
+    line-height: 80px;
+  }
+  .mntn-section-body__wrapper {
+    margin-bottom: 15px;
+  }
+  .mntn-section-subtitle__wrapper {
+    margin-bottom: 10px;
+  }
+  .mntn-after-gradient {
+    top: 650px;
+  }
+  .mntn-section-photo {
+    min-width: 423px;
+    min-height: 537px;
+  }
+  .mntn-intro-scroll-steps__link {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .mntn-intro-scroll-steps__item:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  .mntn-intro-scroll__slider {
+    position: relative;
+    height: 220px;
+  }
+  .mntn-section-text__wrapper {
+    margin: 141px 0 0 40px;
+  }
+}
+@media screen and (max-width: 1336px) {
+  .mntn-header__wrapper {
+    margin: 0 80px 210px;
+  }
 }
