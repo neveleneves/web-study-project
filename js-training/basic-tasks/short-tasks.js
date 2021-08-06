@@ -312,14 +312,109 @@
 
 // _______________________________________________________//
 
-const arr = [1, 2, 3, 4, 5];
+// const arr = [1, 2, 3, 4, 5];
 
-const a = (arr) => {
-  arr[0] = 10;
-  arr[1] = 20;
-  console.log(arr);
-};
-a(arr);
-console.log(arr);
+// const a = (arr) => {
+//   arr[0] = 10;
+//   arr[1] = 20;
+//   console.log(arr);
+// };
+// a(arr);
+// console.log(arr);
 
 // _______________________________________________________//
+
+// function compare() {
+//   let n = 10;
+
+//   return function() {
+//     return n *= n;
+
+//   }
+// }
+// const compareFunc = compare()
+// console.log(compareFunc())
+// console.log(compareFunc())
+// console.log(compareFunc())
+
+// _______________________________________________________//
+
+function f() {
+  console.log(this.x);
+}
+f();
+
+// С бекенда приходит массив такого вида:
+// var arr = [
+//     { name: 'width', value: 10 },
+//     { name: 'height', value: 20 },
+//     // ...
+//   ];
+
+//   // Нужно получить объект такого вида:
+//   /*
+//   {
+//     width: 10,
+//     height: 20,
+//     ...
+//   }
+//   */
+
+//   function objFromArr(arr) {
+//       const resultObj = {};
+
+//       for (let item of arr) {
+//           const name = item.name;
+//           resultObj[name] = item.value;
+//       }
+//       return resultObj;
+//   }
+
+//   function objFromArrReduce(arr) {
+//       const resultObj = arr.reduce((prev, current) => {
+//           const name = current.name;
+//           prev[name] = current.value;
+//           return prev;
+//       }, {})
+
+//       return resultObj;
+//   }
+
+//   /*
+//   Необходимо написать функцию, которая тестирует входную строку на наличие правильной вложенности для скобок трёх видов "()", "[]", "<>".
+//   testBrackets('[a] (b) <>'); // => true
+//   testBrackets('[a] (b<)>'); // => false
+//   testBrackets('<[(<a>)]>'); // => true
+//   testBrackets('hello[ [w]orld(!)] <y[ande]x>!'); // => true
+//   testBrackets('[>]'); // => false
+//   testBrackets('hello () world ]'); // => false
+//   testBrackets('empty'); // => true
+//   testBrackets('(('); // => false
+//   testBrackets('[>'); // => false
+//   testBrackets(''); // => true
+//   testBrackets('[]'); // => true
+//   */
+
+//   function testBrackets(inputString) {
+//       const resultTest = [];
+//       const bracketsObj = {
+//           '[': ']',
+//           '(': ')',
+//           '<': '>',
+//       };
+
+//       for(let elem of inputString) {
+//           if(elem === '(' || elem === '[' || elem === '<') {
+
+//               resultTest.push(elem);
+//           }
+//           else if(elem === ')' || elem === ']' || elem === '>') {
+//               if(elem === bracketsObj[resultTest[resultTest.length-1]]) {
+//                   resultTest.pop(elem);
+//               } else return false;
+//           }
+//       }
+
+//       if(!reslutTest.length) return true;
+//       else return false;
+//   }
